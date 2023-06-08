@@ -1,0 +1,48 @@
+.enquiries{
+    display: flex;
+}
+.service-details{
+    padding: 30px;
+    margin-right: 30px;
+}
+.service-details,.basic-price{
+   background: #fff;
+   border-radius: 12px;
+}
+.basic-price{
+    margin-left: 30px;
+}
+.enqbtn{
+    position: relative;
+}
+.enqbtn button {
+    margin: 30px 30px;
+    width: 250px;
+    height: 48px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    
+    border-radius: 4px;
+}
+
+.enqbtn button.primary {
+    background: #3F606F;
+    border: 1px solid #3F606F;
+}
+
+.enqbtn button.scondary {
+    color: #A5ABAE;
+    background: transparent;
+    border: 1px solid #A5ABAE;
+}
+.notificationmove{
+    position: absolute;
+    top: 17px;
+    left: 577px;
+}

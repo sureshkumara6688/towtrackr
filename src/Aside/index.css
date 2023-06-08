@@ -1,0 +1,103 @@
+.submenu {
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center {
+    display: inline-block;
+    align-items: center;
+}
+
+.aside h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.aside {
+
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 26px 0;
+    height: 900px;
+    position: relative;
+}
+
+.price-mention {
+    background: #6E62E540;
+    height: 48px;
+    Width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.total {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.gtotal{
+  padding-top: 20px;
+    border-top: 1px solid #3F606F;;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.gtotal .text{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    /* Black */
+    
+    color: #333333;
+    
+}
+
+.gtotal .money{
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+color: #3F606F;
+text-align: right;
+}
+.total button {
+    display: block;
+    margin: 30px 30px;
+    width: 80%;
+    height: 48px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    box-shadow: 1px 4px 9px #A2ADB3;
+    border-radius: 4px;
+}
+
+.total button.primary {
+    background: #3F606F;
+    border: 1px solid #3F606F;
+}
+
+.total button.scondary {
+    background: #A5ABAE;
+    border: 1px solid #A5ABAE;
+}
