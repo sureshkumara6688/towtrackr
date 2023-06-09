@@ -43,11 +43,40 @@
 
 .container ul.navbar li.selected {
     box-shadow: 1px 4px 9px rgba(125, 123, 146, 0.4);
-    background: #3F606F;    
-    color:#fff;
+    background: #3F606F;
+    color: #fff;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
 
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .navbar.show {
+        display: block !important;
+    }
+
+    .navbar.hide {
+        display: none !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container ul.topnav {
+        justify-content: space-evenly;
+    }
+
+    .container ul.navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 65;
+        background: #fff;
+        width: 75%;
+    }
 }

@@ -30,9 +30,8 @@ body{
   width: 100%;
 }
 .left-container{
-  display: none;
+  padding: 5px;
 }
-
 .aside-container{
   display: block;
   
