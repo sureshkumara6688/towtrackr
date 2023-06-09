@@ -31,3 +31,15 @@ label{
      color: #3F606F;
     
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .form .maringRight{
+        margin-right: 0;
+    }
+    .form-label {      
+        width: 100%;
+    }
+}  
+

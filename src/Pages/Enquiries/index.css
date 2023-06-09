@@ -44,5 +44,20 @@
 .notificationmove{
     position: absolute;
     top: 17px;
-    left: 577px;
+    right: 15px;
 }
+.postionr{
+    position: relative;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .enquiries{
+        display: block;
+    }
+    .service-details{
+        margin-right: 0;
+    }
+    
+}  

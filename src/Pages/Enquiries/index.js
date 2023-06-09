@@ -15,11 +15,12 @@ export default function Enquiries() {
             <div className='enqbtn'>
                 <button type="button" className='primary'> Take New Enquiry</button>
                
+               <div className='postionr'>
                 <button type="button" className='scondary'> Pending Payments</button>
                 <div className='notificationmove'> 
                 <Notification num={18}/>
                 </div>
-               
+                </div>
                
             </div>
             <div className='enquiries'>

@@ -19,3 +19,22 @@ body{
   display: flex;
   
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ 
+.main{
+  display: block;
+}
+.left-container,.right-container{
+  width: 100%;
+}
+.left-container{
+  display: none;
+}
+
+.aside-container{
+  display: block;
+  
+}
+}
